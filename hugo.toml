@@ -1,0 +1,65 @@
+baseURL 			= 'https://alex.nikolis.dev/'
+languageCode 	= 'en-us'
+title 				= 'Alex Nikolis Professional Site'
+theme 				= 'hello-friend-ng'
+
+PygmentsCodeFences 	= true
+PygmentsStyle 			= "monokai"
+
+paginate     	= 10
+rssLimit  		= 10
+copyright 		= "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Alexander Nikolis"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+
+[params]
+
+  # Social icons
+#  [[params.social]]
+#    name = "twitter"
+#    url  = "https://twitter.com/"
+
+#  [[params.social]]
+#    name = "email"
+#    url  = "mailto:alex@nikolis.dev"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/alexnikolis"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/alex-nikolis-22766a9b/"
+
+#  [[params.social]]
+#    name = "stackoverflow"
+#    url  = "https://www.stackoverflow.com/"
+
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "resume"
+    name       = "Resume"
+    url        = "resume/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
