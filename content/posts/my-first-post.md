@@ -1,11 +1,12 @@
 ---
-title: "My First Post"
+title: "Hello World"
 date: 2023-03-26T11:16:57-04:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
-  - untagged
+  - first
+  - about
 ---
 ## Hello World
 
