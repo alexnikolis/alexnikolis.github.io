@@ -1,34 +1,42 @@
-baseURL 			= 'https://alex.nikolis.dev/'
-languageCode 	= 'en-us'
-title 				= 'Alex Nikolis Professional Site'
-theme 				= 'hello-friend-ng'
+baseURL = 'https://alex.nikolis.dev/'
+languageCode = 'en-us'
+title = 'Alex Nikolis'
+theme = 'hello-friend-ng'
 
-PygmentsCodeFences 	= true
-PygmentsStyle 			= "monokai"
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
 
-paginate     	= 10
-rssLimit  		= 10
-copyright 		= "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+paginate = 10
+rssLimit = 10
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 
 enableRobotsTXT = true
-enableGitInfo   = false
-enableEmoji     = true
+enableGitInfo = false
+enableEmoji = true
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Alexander Nikolis"
+name = "Alexander Nikolis"
 
 [taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
+category = "blog"
+tag = "tags"
+series = "series"
 
 
 [params]
+homeSubtitle = "Software Engineer"
 
-  # Social icons
+[params.logo]
+logoMark = " "
+logoText = "AN"
+# logoHomeLink = "/"
+# Set true to remove the logo cursor entirely.
+logoCursorDisabled = true
+
+# Social icons
 #  [[params.social]]
 #    name = "twitter"
 #    url  = "https://twitter.com/"
@@ -37,13 +45,13 @@ enableEmoji     = true
 #    name = "email"
 #    url  = "mailto:alex@nikolis.dev"
 
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/alexnikolis"
+[[params.social]]
+name = "github"
+url = "https://github.com/alexnikolis"
 
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/alex-nikolis-22766a9b/"
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/alex-nikolis-22766a9b/"
 
 #  [[params.social]]
 #    name = "stackoverflow"
@@ -51,15 +59,15 @@ enableEmoji     = true
 
 
 [menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
-  [[menu.main]]
-    identifier = "resume"
-    name       = "Resume"
-    url        = "resume/"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "about/"
+[[menu.main]]
+identifier = "resume"
+name = "Resume"
+url = "resume/"
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "posts/"
